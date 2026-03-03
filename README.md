@@ -2,7 +2,7 @@
 
 The Intelligent Academic Management System (IAMS) is a modern, full-stack application designed to streamline the academic, administrative, and financial operations of educational institutions. Built with the MERN stack (MongoDB, Express, React, Node.js), it offers a robust, multi-tenant architecture with granular role-based access control.It even has an AI assistant to help students with their academic queries.
 
-## 🚀 Key Features by Role
+##  Key Features by Role
 
 The system is built around 5 distinct roles, ensuring everyone has access only to what they need.
 
@@ -41,7 +41,7 @@ The end-users consuming the academic services.
 - **Results**: Check published marks and grades.
 - **AI Assistant**: A secure, context-aware AI chatbot built into the platform to help students navigate the system and answer academic queries.
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### Frontend (React + Vite)
 - **Framework**: React 18 powered by Vite for lightning-fast HMR and optimized builds.
@@ -58,11 +58,12 @@ The end-users consuming the academic services.
   - Designed for multi-tenancy: Every core entity tracks its owning `institution` ID to ensure data isolation.
   - Complex relationships: e.g., Subjects belong to Semesters, which belong to Branches, which belong to Batches.
 
-## 🛡️ Security & Scalability
+##  Security & Scalability
 
 - **Multi-Tenancy**: The database schema ensures that one institution's data is completely invisible to another, allowing the platform to serve multiple schools/colleges from a single deployment.
 - **Audit Trails**: Critical actions (like promoting a semester or deactivating a user) generate immutable audit logs.
 - **Soft Deletes**: Entities like Users, Batches, and Branches utilize `isActive` or `isArchived` flags instead of hard deletion to maintain data integrity and historical records.
 
-// © 2026 Syed Khubayb Ur Rahman
-// GitHub: https://github.com/kh-ub-ayb
+## Copyright
+- © 2026 Syed Khubayb Ur Rahman.
+- GitHub: https://github.com/kh-ub-ayb
