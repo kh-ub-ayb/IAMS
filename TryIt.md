@@ -113,5 +113,6 @@ If this is a fresh database, you need a SuperAdmin account to create an institut
 - **CORS Errors in Browser**: Ensure your backend `cors` configuration in `server.js` or `app.js` is set to accept requests from `http://localhost:3000` (or your Vite port).
 - **"Invalid Credentials" on Login**: Ensure your database has the roles collection populated. The backend relies on specific role names (`SuperAdmin`, `Manager`, `ClassTeacher`, `Teacher`, `Student`).
 
-// © 2026 Syed Khubayb Ur Rahman
-// GitHub: https://github.com/kh-ub-ayb
+### Copyright
+- © 2026 Syed Khubayb Ur Rahman.
+- GitHub: https://github.com/kh-ub-ayb
