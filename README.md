@@ -64,6 +64,10 @@ The end-users consuming the academic services.
 - **Audit Trails**: Critical actions (like promoting a semester or deactivating a user) generate immutable audit logs.
 - **Soft Deletes**: Entities like Users, Batches, and Branches utilize `isActive` or `isArchived` flags instead of hard deletion to maintain data integrity and historical records.
 
+## Setup and Run Locally
+
+Want to try out or contribute to IAMS? Follow the instructions in [TryIt.md](./TryIt.md) to set up and run the application locally.
+
 ## Copyright
 - © 2026 Syed Khubayb Ur Rahman.
 - GitHub: https://github.com/kh-ub-ayb
