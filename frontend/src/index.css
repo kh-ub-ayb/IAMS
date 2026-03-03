@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Custom utility classes or base overrides can go below */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
